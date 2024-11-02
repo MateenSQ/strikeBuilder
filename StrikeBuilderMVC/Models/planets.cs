@@ -2,13 +2,13 @@
 
 namespace StrikeBuilderMVC.Models
 {
-    public class planets
+    public class Planets
     {
         public ObjectId Id { get; set; }
-        public string name { get; set; }
-        public int orderFromSun { get; set; }
-        public bool hasRings { get; set; }
-        public int mainAtmosphere { get; set; }
-        public 
+        public string Name { get; set; } = null!;
+        public int OrderFromSun { get; set; }
+        public bool HasRings { get; set; }
+        public string[] MainAtmosphere { get; set; } = null!;
+        public SurfaceTemperatureC SurfaceTemperatureC { get; set; } = null!;
     }
 }
