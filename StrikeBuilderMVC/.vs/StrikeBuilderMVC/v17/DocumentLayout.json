@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\localdata\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:localdata\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\dbrepositories\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:dbrepositories\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\models\\surfacetemperaturec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:models\\surfacetemperaturec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\models\\planets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:models\\planets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\controllers\\strikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:controllers\\strikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,88 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T19:52:49.894Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MongoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Data\\MongoDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\MongoDbContext.cs",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Data\\MongoDbContext.cs",
-              "RelativeToolTip": "Data\\MongoDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T15:07:58.348Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class.cs",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\LocalData\\Class.cs",
-              "RelativeDocumentMoniker": "LocalData\\Class.cs",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\LocalData\\Class.cs",
-              "RelativeToolTip": "LocalData\\Class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:03:07.678Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\DBRepositories\\MongoRepository.cs",
-              "RelativeDocumentMoniker": "DBRepositories\\MongoRepository.cs",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\DBRepositories\\MongoRepository.cs",
-              "RelativeToolTip": "DBRepositories\\MongoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T20:17:31.726Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T15:19:16.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SurfaceTemperatureC.cs",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\SurfaceTemperatureC.cs",
-              "RelativeDocumentMoniker": "Models\\SurfaceTemperatureC.cs",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\SurfaceTemperatureC.cs",
-              "RelativeToolTip": "Models\\SurfaceTemperatureC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StrikeController.cs",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Controllers\\StrikeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StrikeController.cs",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Controllers\\StrikeController.cs",
+              "RelativeToolTip": "Controllers\\StrikeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T20:08:28.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Planets.cs",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\Planets.cs",
-              "RelativeDocumentMoniker": "Models\\Planets.cs",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\Planets.cs",
-              "RelativeToolTip": "Models\\Planets.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T17:32:45.444Z"
+              "WhenOpened": "2024-11-02T15:18:25.274Z",
+              "EditorCaption": ""
             }
           ]
         }
