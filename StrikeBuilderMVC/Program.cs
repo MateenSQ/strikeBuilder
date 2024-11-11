@@ -1,7 +1,7 @@
 using MongoDB.Driver;
 using MongoDB.Bson;
 using System.Diagnostics;
-using StrikeBuilderMVC.Repository;
+using StrikeBuilderMVC.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,20 +10,20 @@ var builder = WebApplication.CreateBuilder(args);
 // || MongoDB Connection
 // ======================
 
-builder.Services.AddSingleton<IMongoClient>(sp =>
-{
-    const string ConnectionUri = "mongodb+srv://defaultUser:test123@cluster0.gp76y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+//builder.Services.AddSingleton<IMongoClient>(sp =>
+//{
+//    const string ConnectionUri = "mongodb+srv://defaultUser:test123@cluster0.gp76y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
-    var settings = MongoClientSettings.FromConnectionString(ConnectionUri);
+//    var settings = MongoClientSettings.FromConnectionString(ConnectionUri);
 
-    // Set the ServerApi field of the settings object to set the version of the Stable API on the client
-    settings.ServerApi = new ServerApi(ServerApiVersion.V1);
+//    // Set the ServerApi field of the settings object to set the version of the Stable API on the client
+//    settings.ServerApi = new ServerApi(ServerApiVersion.V1);
 
-    // Create a new client and connect to the server
-    return new MongoClient(settings);
-});
+//    // Create a new client and connect to the server
+//    return new MongoClient(settings);
+//});
 
-builder.Services.AddScoped<IMongoRepository, MongoRepository>();
+//builder.Services.AddScoped<IMongoRepository, MongoRepository>();
 
 
 //const string ConnectionUri = "mongodb+srv://defaultUser:test123@cluster0.gp76y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
@@ -47,8 +47,11 @@ builder.Services.AddScoped<IMongoRepository, MongoRepository>();
 //    Debug.WriteLine(ex);
 //}
 
-
 // ======================
+
+// Mock Data
+builder.Services.AddScoped<IMockStrikesRepository, MockStrikesRepository>();
+builder.Services.AddScoped<IMockSavedStrikesRepository, MockSavedStrikesRepository>();
 
 
 builder.Services.AddAuthentication(options =>
