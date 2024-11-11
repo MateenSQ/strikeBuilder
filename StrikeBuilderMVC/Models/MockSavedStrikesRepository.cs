@@ -2,5 +2,6 @@
 {
     public class MockSavedStrikesRepository : IMockSavedStrikesRepository
     {
+        public IEnumerable<Strike> SavedStrikes = Enumerable.Empty<Strike>();
     }
 }
