@@ -23,7 +23,9 @@ namespace StrikeBuilderMVC.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            List<Strike> allStrikes = _mockSavedStrikesRepository.GetAllSavedStrikes();
+
+            return View(allStrikes);
         }
 
         public IActionResult Select()

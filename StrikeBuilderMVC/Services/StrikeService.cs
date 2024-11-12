@@ -37,6 +37,7 @@ namespace StrikeBuilderMVC.Services
 
             int highestOrder = _mockSavedStrikesRepository.GetHighestOrder();
 
+            // Actually seems to make ss.Order = 0, despite highestOrder++ evaluating to 1
             selectedStrike.Order = highestOrder++;
 
             _mockSavedStrikesRepository.AddStrikeToSaved(selectedStrike);

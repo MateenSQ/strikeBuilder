@@ -2,7 +2,7 @@
 {
     public class MockSavedStrikesRepository : IMockSavedStrikesRepository
     {
-        public List<Strike> SavedStrikes = new List<Strike>();
+        public List<Strike> SavedStrikes { get; set; } = new List<Strike>();
 
         public List<Strike> GetAllSavedStrikes()
         {
@@ -22,9 +22,7 @@
 
         public void AddStrikeToSaved(Strike selectedStrike)
         {
-            SavedStrikes[0] = selectedStrike;
-
-            //SavedStrikes.Append(selectedStrike);
+            SavedStrikes.Add(selectedStrike);
         }
     }
 }

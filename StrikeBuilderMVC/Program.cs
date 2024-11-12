@@ -51,9 +51,9 @@ var builder = WebApplication.CreateBuilder(args);
 // ======================
 
 // Mock Data
-builder.Services.AddScoped<IMockStrikesRepository, MockStrikesRepository>();
-builder.Services.AddScoped<IMockSavedStrikesRepository, MockSavedStrikesRepository>();
-builder.Services.AddScoped<IStrikeService, StrikeService>();
+builder.Services.AddSingleton<IMockStrikesRepository, MockStrikesRepository>();
+builder.Services.AddSingleton<IMockSavedStrikesRepository, MockSavedStrikesRepository>();
+builder.Services.AddSingleton<IStrikeService, StrikeService>();
 
 
 builder.Services.AddAuthentication(options =>

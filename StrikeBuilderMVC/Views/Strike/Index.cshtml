@@ -1,3 +1,19 @@
-﻿<h1>Strike Index</h1>
+﻿@model IEnumerable<Strike>
+
+<h1>Strike Index</h1>
 
 <a asp-controller="Strike" asp-action="Select">Select a Strike</a>
+
+<hr />
+
+<div class="selectStrikeContainer">
+    @foreach (var item in Model)
+    {
+        <form method="post" asp-action="Select" asp-route-id="@item.Id">
+            <button type="submit" class="selectStrike">
+                <h3>@item.Name</h3>
+                <p>@item.Description</p>
+            </button>
+        </form>
+    }
+</div>
