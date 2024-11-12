@@ -28,5 +28,11 @@ namespace StrikeBuilderMVC.Controllers
 
             return View(AllStrikes);
         }
+
+        [HttpPost]
+        public IActionResult Select(int id)
+        {
+            return Redirect("/Strike/Index");
+        }
     }
 }

@@ -2,6 +2,7 @@ using MongoDB.Driver;
 using MongoDB.Bson;
 using System.Diagnostics;
 using StrikeBuilderMVC.Models;
+using StrikeBuilderMVC.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -52,6 +53,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Mock Data
 builder.Services.AddScoped<IMockStrikesRepository, MockStrikesRepository>();
 builder.Services.AddScoped<IMockSavedStrikesRepository, MockSavedStrikesRepository>();
+builder.Services.AddScoped<IStrikeService, StrikeService>();
 
 
 builder.Services.AddAuthentication(options =>

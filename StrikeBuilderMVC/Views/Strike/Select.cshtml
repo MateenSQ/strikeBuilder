@@ -7,11 +7,11 @@
 <div class="selectStrikeContainer">
     @foreach (var item in Model)
     {
-        <a asp-action="" asp-route-id="@item.Id">
-            <div class="selectStrike">
+        <form method="post" asp-action="Select" asp-route-id="@item.Id">
+            <button type="submit" class="selectStrike">
                 <h3>@item.Name</h3>
                 <p>@item.Description</p>
-            </div>
-        </a>
+            </button>
+        </form>
     }
 </div>
