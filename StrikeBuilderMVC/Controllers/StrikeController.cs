@@ -24,7 +24,9 @@ namespace StrikeBuilderMVC.Controllers
 
         public IActionResult Select()
         {
-            return View();
+            List<Strike> AllStrikes = _mockStrikesRepository.GetAllStrikes();
+
+            return View(AllStrikes);
         }
     }
 }

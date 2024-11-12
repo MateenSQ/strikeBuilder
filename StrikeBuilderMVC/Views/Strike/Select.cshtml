@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Strike>
+
+<h1>Select a Move</h1>
+
+<hr />
+
+<div class="selectStrikeContainer">
+    @foreach (var item in Model)
+    {
+        <a asp-action="" asp-route-id="@item.Id">
+            <div class="selectStrike">
+                <h3>@item.Name</h3>
+                <p>@item.Description</p>
+            </div>
+        </a>
+    }
+</div>
