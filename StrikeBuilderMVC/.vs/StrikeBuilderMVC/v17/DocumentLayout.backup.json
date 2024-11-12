@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\controllers\\strikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:controllers\\strikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\views\\strike\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:views\\strike\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\views\\strike\\select.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:views\\strike\\select.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\models\\mockstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:models\\mockstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\services\\strikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:services\\strikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\models\\mocksavedstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:models\\mocksavedstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\models\\strike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:models\\strike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\models\\mockstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:models\\mockstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\controllers\\strikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:controllers\\strikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\services\\istrikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:services\\istrikeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\views\\strike\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:views\\strike\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\models\\imocksavedstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:models\\imocksavedstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\models\\imockstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:models\\imockstrikesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\views\\strike\\select.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:views\\strike\\select.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|c:\\users\\03mat\\source\\repos\\strikebuilder\\strikebuildermvc\\models\\strike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0362F1-1DCD-45AA-9B05-5FCD5A78507D}|StrikeBuilderMVC.csproj|solutionrelative:models\\strike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +58,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StrikeController.cs",
               "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Controllers\\StrikeController.cs",
               "RelativeDocumentMoniker": "Controllers\\StrikeController.cs",
               "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Controllers\\StrikeController.cs",
               "RelativeToolTip": "Controllers\\StrikeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwBQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T18:43:39.886Z",
               "IsPinned": true,
@@ -60,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Views\\Strike\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Strike\\Index.cshtml",
@@ -74,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -83,19 +99,21 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-12T19:11:24.548Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Select.cshtml",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Views\\Strike\\Select.cshtml",
-              "RelativeDocumentMoniker": "Views\\Strike\\Select.cshtml",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Views\\Strike\\Select.cshtml",
-              "RelativeToolTip": "Views\\Strike\\Select.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T19:30:29.727Z",
+              "DocumentIndex": 0,
+              "Title": "StrikeService.cs",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Services\\StrikeService.cs",
+              "RelativeDocumentMoniker": "Services\\StrikeService.cs",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Services\\StrikeService.cs",
+              "RelativeToolTip": "Services\\StrikeService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T19:44:18.338Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -104,45 +122,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MockStrikesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\MockStrikesRepository.cs",
-              "RelativeDocumentMoniker": "Models\\MockStrikesRepository.cs",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\MockStrikesRepository.cs",
-              "RelativeToolTip": "Models\\MockStrikesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:08:51.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T19:44:40.629Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MockSavedStrikesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\MockSavedStrikesRepository.cs",
-              "RelativeDocumentMoniker": "Models\\MockSavedStrikesRepository.cs",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\MockSavedStrikesRepository.cs",
-              "RelativeToolTip": "Models\\MockSavedStrikesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Title": "IStrikeService.cs",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Services\\IStrikeService.cs",
+              "RelativeDocumentMoniker": "Services\\IStrikeService.cs",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Services\\IStrikeService.cs",
+              "RelativeToolTip": "Services\\IStrikeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:27:05.992Z",
+              "WhenOpened": "2024-11-12T19:44:28.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IMockStrikesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\IMockStrikesRepository.cs",
-              "RelativeDocumentMoniker": "Models\\IMockStrikesRepository.cs",
-              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\IMockStrikesRepository.cs",
-              "RelativeToolTip": "Models\\IMockStrikesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T18:26:50.992Z"
+              "DocumentIndex": 9,
+              "Title": "Select.cshtml",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Views\\Strike\\Select.cshtml",
+              "RelativeDocumentMoniker": "Views\\Strike\\Select.cshtml",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Views\\Strike\\Select.cshtml",
+              "RelativeToolTip": "Views\\Strike\\Select.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T19:30:29.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Strike.cs",
               "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\Strike.cs",
               "RelativeDocumentMoniker": "Models\\Strike.cs",
@@ -151,6 +168,79 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T18:09:00.487Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "522f002e-e725-4d65-9f99-8865d2a3e7d4",
+        "Display": 1,
+        "X": 825,
+        "Y": 166,
+        "Width": 1629,
+        "Height": 954,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MockStrikesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\MockStrikesRepository.cs",
+              "RelativeDocumentMoniker": "Models\\MockStrikesRepository.cs",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\MockStrikesRepository.cs",
+              "RelativeToolTip": "Models\\MockStrikesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T20:05:22.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMockStrikesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\IMockStrikesRepository.cs",
+              "RelativeDocumentMoniker": "Models\\IMockStrikesRepository.cs",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\IMockStrikesRepository.cs",
+              "RelativeToolTip": "Models\\IMockStrikesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:26:50.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MockSavedStrikesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\MockSavedStrikesRepository.cs",
+              "RelativeDocumentMoniker": "Models\\MockSavedStrikesRepository.cs",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\MockSavedStrikesRepository.cs",
+              "RelativeToolTip": "Models\\MockSavedStrikesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:27:05.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMockSavedStrikesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\IMockSavedStrikesRepository.cs",
+              "RelativeDocumentMoniker": "Models\\IMockSavedStrikesRepository.cs",
+              "ToolTip": "C:\\Users\\03mat\\source\\repos\\strikeBuilder\\StrikeBuilderMVC\\Models\\IMockSavedStrikesRepository.cs",
+              "RelativeToolTip": "Models\\IMockSavedStrikesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T19:47:14.907Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -17,5 +17,10 @@
         {
             return AllStrikes.ToList();
         }
+
+        public Strike GetStrikeById(int id)
+        {
+            return AllStrikes.FirstOrDefault(s => s.Id == id);
+        }
     }
 }

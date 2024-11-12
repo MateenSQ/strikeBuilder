@@ -2,5 +2,6 @@
 {
     public interface IStrikeService
     {
+        public void AddToSaved(int id);
     }
 }

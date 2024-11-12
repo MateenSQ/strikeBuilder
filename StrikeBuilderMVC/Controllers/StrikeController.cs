@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StrikeBuilderMVC.Models;
+using StrikeBuilderMVC.Services;
 
 namespace StrikeBuilderMVC.Controllers
 {
@@ -7,14 +8,17 @@ namespace StrikeBuilderMVC.Controllers
     {
         private readonly IMockSavedStrikesRepository _mockSavedStrikesRepository;
         private readonly IMockStrikesRepository _mockStrikesRepository;
+        private readonly IStrikeService _strikeService;
 
         public StrikeController(
             IMockSavedStrikesRepository MockSavedStrikesRepository,
-            IMockStrikesRepository MockStrikesRepository
+            IMockStrikesRepository MockStrikesRepository,
+            IStrikeService strikeService
         )
         {
             _mockSavedStrikesRepository = MockSavedStrikesRepository;
             _mockStrikesRepository = MockStrikesRepository;
+            _strikeService = strikeService;
         }
 
         public IActionResult Index()
@@ -32,6 +36,8 @@ namespace StrikeBuilderMVC.Controllers
         [HttpPost]
         public IActionResult Select(int id)
         {
+            _strikeService.AddToSaved(id);
+
             return Redirect("/Strike/Index");
         }
     }
