@@ -30,7 +30,7 @@ namespace StrikeBuilderMVC.Controllers
         }
 
         
-        // Select Methods
+        // Select
         public IActionResult Select()
         {
             List<Strike> AllStrikes = _mockStrikesRepository.GetAllStrikes();
@@ -46,12 +46,28 @@ namespace StrikeBuilderMVC.Controllers
             return Redirect("/Strike/Index");
         }
 
-        // Info Methods
+        // Info & Catalogue
         public IActionResult Info(int id)
         {
             Strike selectedStrike = _mockStrikesRepository.GetStrikeById(id);
 
             return View(selectedStrike);
+        }
+
+        public IActionResult Catalogue()
+        {
+            List<Strike> allStrikes = _mockStrikesRepository.GetAllStrikes();
+
+            return View(allStrikes);
+        }
+
+        // Clear
+        [HttpPost]
+        public IActionResult Clear()
+        {
+            _mockSavedStrikesRepository.ClearStrikes();
+
+            return Redirect("/Strike/Index");
         }
     }
 }

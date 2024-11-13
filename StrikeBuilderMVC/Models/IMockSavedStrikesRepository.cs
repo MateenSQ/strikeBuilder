@@ -7,5 +7,7 @@
         public int GetHighestOrder();
 
         public void AddStrikeToSaved(Strike selectedStrike);
+
+        public void ClearStrikes();
     }
 }

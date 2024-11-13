@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Strike>
+
+<h1>Catalogue of All Moves</h1>
+
+<hr />
+
+<div class="strikeContainer">
+@foreach (Strike strike in Model)
+{
+    <div class="savedStrike">
+        <a asp-action="Info" asp-route-id="@strike.Id">Info</a>
+        <br />
+        <h3>@strike.Name</h3>
+        <p>@strike.ShortDescription</p>
+    </div>
+}
+</div>

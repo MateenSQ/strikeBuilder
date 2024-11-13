@@ -24,5 +24,10 @@
         {
             SavedStrikes.Add(selectedStrike);
         }
+
+        public void ClearStrikes()
+        {
+            SavedStrikes = new List<Strike>();
+        }
     }
 }

@@ -2,15 +2,17 @@
 
 <h1>Select a Move</h1>
 
+<a asp-action="Index">< Back</a>
+
 <hr />
 
-<div class="selectStrikeContainer">
+<div class="strikeContainer">
     @foreach (var item in Model)
     {
         <form method="post" asp-action="Select" asp-route-id="@item.Id">
             <button type="submit" class="selectStrike">
                 <h3>@item.Name</h3>
-                <p>@item.Description</p>
+                <p>@item.ShortDescription</p>
             </button>
         </form>
     }

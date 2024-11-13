@@ -4,17 +4,23 @@
 
 <a asp-controller="Strike" asp-action="Select">Select a Strike</a>
 
+<br />
+
+<form class="reset" method="post" asp-action="Clear">
+    <button class="reset anchor" type="submit">Clear All</button>
+</form>
+
 <hr />
 
-<div class="selectStrikeContainer">
-    @foreach (var item in Model)
+<div class="strikeContainer">
+    @foreach (Strike strike in Model)
     {
-        <form method="post" asp-action="Select" asp-route-id="@item.Id">
-            <div class="savedStrike">
-                <a asp-action="Info" asp-route-id="@item.Id">Info</a>
-                <h3>@item.Name</h3>
-                <p>@item.Description</p>
-            </div>
-        </form>
+        <div class="savedStrike">
+            <a asp-action="Info" asp-route-id="@strike.Id">Info</a>
+            <br />
+            @* <span>Order: @item.Order</span> *@
+            <h3>@strike.Name</h3>
+            <p>@strike.ShortDescription</p>
+        </div>
     }
 </div>

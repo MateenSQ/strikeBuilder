@@ -1,15 +1,17 @@
 ﻿@model Strike
 
+<a asp-action="Index">< Back</a>
+
 <h1>@Model.Name</h1>
 
 <h3>Description</h3>
 
-<p></p>
+<p>@Model.LongDescription</p>
 
 <h3>Diagram</h3>
 
-<img />
+<img src="@Model.ImageURL" />
 
 <h3>Origin</h3>
 
-<p></p>
+<p>@Model.OriginDescription</p>
