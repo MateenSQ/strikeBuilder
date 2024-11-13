@@ -43,3 +43,10 @@ body {
 .selectStrike:hover {
     opacity: 50%;
 }
+
+.savedStrike {
+    padding: 10px;
+    background-color: lightsteelblue;
+    color: black;
+    border: solid 2px black;
+}

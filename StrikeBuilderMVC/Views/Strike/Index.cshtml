@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Strike>
 
-<h1>Strike Index</h1>
+<h1>Build Your Combinations</h1>
 
 <a asp-controller="Strike" asp-action="Select">Select a Strike</a>
 
@@ -10,10 +10,11 @@
     @foreach (var item in Model)
     {
         <form method="post" asp-action="Select" asp-route-id="@item.Id">
-            <button type="submit" class="selectStrike">
+            <div class="savedStrike">
+                <a asp-action="Info" asp-route-id="@item.Id">Info</a>
                 <h3>@item.Name</h3>
                 <p>@item.Description</p>
-            </button>
+            </div>
         </form>
     }
 </div>
