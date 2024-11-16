@@ -68,3 +68,8 @@ body {
     color: black;
     border: solid 2px black;
 }
+
+.image {
+    max-width: 600px;
+    max-height: 400px;
+}
