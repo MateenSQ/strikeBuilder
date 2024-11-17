@@ -68,7 +68,7 @@ builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 // Docker
-app.Urls.Add($"http://0.0.0.0:{Environment.GetEnvironmentVariable("Port")}");
+app.Urls.Add($"http://0.0.0.0:{Environment.GetEnvironmentVariable("PORT")}");
 
 
 // Configure the HTTP request pipeline.
